@@ -32,6 +32,6 @@ export const STARTUPS_BY_ID_QUERY =
 }`)
 
 export const STARTUPS_VIEWS_QUERY =
-    defineQuery(`*[_type == "startyp" && _id == $id][0]{
+    defineQuery(`*[_type == "startup" && _id == $id][0]{
     _id, views
     }`)
